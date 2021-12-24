@@ -20,7 +20,7 @@ jobs:
         yarn format-check
 
     - name: build
-      run: yarn dist
+      run: yarn build
 
     - name: Integration test - get token
       id: my-app
